@@ -1,0 +1,175 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=6986040;
+	class Intel
+	{
+		resistanceEast=1;
+		startWeather=1;
+		forecastWeather=1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+	class Vehicles
+	{
+		items=9;
+		class Item0
+		{
+			position[]={13118.328,20.885098,2839.3669};
+			id=0;
+			side="EMPTY";
+			vehicle="Land_LHD_5";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item1
+		{
+			position[]={13119.534,20.885099,2952.2893};
+			id=1;
+			side="EMPTY";
+			vehicle="Land_LHD_2";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item2
+		{
+			position[]={13120.79,20.885099,2929.3074};
+			id=2;
+			side="EMPTY";
+			vehicle="Land_LHD_3";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item3
+		{
+			position[]={13118.71,20.885098,2884.3105};
+			id=3;
+			side="EMPTY";
+			vehicle="Land_LHD_4";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item4
+		{
+			position[]={13107.393,20.885099,2994.342};
+			id=4;
+			side="EMPTY";
+			vehicle="Land_LHD_1";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item5
+		{
+			position[]={13118.729,20.885101,2798.3376};
+			id=5;
+			side="EMPTY";
+			vehicle="Land_LHD_6";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item6
+		{
+			position[]={13123.269,20.884537,2813.2598};
+			id=6;
+			side="EMPTY";
+			vehicle="Land_LHD_elev_R";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item7
+		{
+			position[]={13117.521,20.885099,2923.2524};
+			id=7;
+			side="EMPTY";
+			vehicle="Land_LHD_house_1";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+		class Item8
+		{
+			position[]={13114.305,20.885098,2882.4287};
+			id=8;
+			side="EMPTY";
+			vehicle="Land_LHD_house_2";
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 5];";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=9947446;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=504763;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=7761541;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
